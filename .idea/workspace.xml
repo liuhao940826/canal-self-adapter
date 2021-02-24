@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1265b66c-c92a-449c-ad9d-28e8bf3f8c69" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/Downloads/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/Downloads/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nul1VRZcWb4QMLDCU3OvXFlV8o" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/conf/es" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/conf/es" />
+      <recent name="$PROJECT_DIR$/conf/rdb" />
+      <recent name="$PROJECT_DIR$/conf" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1265b66c-c92a-449c-ad9d-28e8bf3f8c69" name="Default Changelist" comment="" />
+      <created>1612247641083</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612247641083</updated>
+      <workItem from="1612247643319" duration="4106000" />
+      <workItem from="1612252000349" duration="5317000" />
+      <workItem from="1612400228876" duration="15000" />
+      <workItem from="1612400274588" duration="12285000" />
+      <workItem from="1612488525114" duration="5389000" />
+      <workItem from="1612518681706" duration="94000" />
+      <workItem from="1613797959905" duration="1943000" />
+      <workItem from="1613984926088" duration="4000" />
+      <workItem from="1614148147677" duration="208000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2103" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612406320156">
+      <screen x="1680" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2103" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.25.1920.1055/0.25.1680.911@1680.25.1920.1055" timestamp="1612406320156" />
+    <state x="2340" y="362" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612248284215">
+      <screen x="1680" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2340" y="362" key="#com.intellij.fileTypes.FileTypeChooser/1680.25.1920.1055/0.25.1680.918@1680.25.1920.1055" timestamp="1612248284215" />
+    <state x="2149" y="188" key="SettingsEditor" timestamp="1612257215789">
+      <screen x="1680" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2149" y="188" key="SettingsEditor/1680.25.1920.1055/0.25.1680.918@1680.25.1920.1055" timestamp="1612257215789" />
+    <state x="2254" y="272" width="773" height="559" key="find.popup" timestamp="1612430055314">
+      <screen x="1680" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2254" y="272" width="773" height="559" key="find.popup/1680.25.1920.1055/0.25.1680.913@1680.25.1920.1055" timestamp="1612430055314" />
+    <state x="502" y="240" width="676" height="486" key="find.popup/1680.25.1920.1055/0.25.1680.918@0.25.1680.918" timestamp="1612257110005" />
+    <state x="502" y="241" width="676" height="486" key="find.popup/1680.25.1920.1055/0.25.1680.922@0.25.1680.922" timestamp="1612254199335" />
+    <state x="2305" y="200" width="670" height="676" key="search.everywhere.popup" timestamp="1612427055596">
+      <screen x="1680" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2305" y="200" width="670" height="676" key="search.everywhere.popup/1680.25.1920.1055/0.25.1680.913@1680.25.1920.1055" timestamp="1612427055596" />
+    <state x="2305" y="200" width="670" height="676" key="search.everywhere.popup/1680.25.1920.1055/0.25.1680.918@1680.25.1920.1055" timestamp="1612257224787" />
+  </component>
+</project>

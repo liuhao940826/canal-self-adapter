@@ -1,0 +1,28 @@
+dataSourceKey: defaultDS
+destination: example
+groupId: g1
+outerAdapterKey: mysql1
+concurrent: true
+dbMapping:
+  database: user_tg
+  table: user
+  targetTable: user_db.dest_user
+  targetPk:
+    id: id
+#  mapAll: true   # 是否整表映射, 要求源表和目标表字段名一模一样 (如果targetColumns也配置了映射,则以targetColumns配置为准)
+  targetColumns:  # 字段映射, 格式: 目标表字段: 源表字段, 如果字段名一样源表字段名可不填
+    id: id
+    name: name
+#  etlCondition: "where c_time>={}"
+  commitBatch: 3000 # 批量提交的大小
+
+
+## Mirror schema synchronize config
+#dataSourceKey: defaultDS
+#destination: example
+#groupId: g1
+#outerAdapterKey: mysql1
+#concurrent: true
+#dbMapping:
+#  mirrorDb: true
+#  database: mytest

@@ -1,0 +1,47 @@
+server:
+  port: 8081
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    default-property-inclusion: non_null
+
+canal.conf:
+  mode: tcp # kafka rocketMQ
+  canalServerHost: 172.16.22.41:11111
+#  zookeeperHosts: 172.16.22.41:2181
+#  mqServers:  #or rocketmq
+  flatMessage: true
+  batchSize: 500
+  syncBatchSize: 1000
+  retries: 0
+  timeout:
+  accessKey:
+  secretKey:
+  srcDataSources:
+    defaultDS:
+      url: jdbc:mysql://172.16.22.41:3306/user_tg?Unicode=true
+      username: canal
+      password: canal
+  canalAdapters:
+  - instance: example # canal instance Name or mq topic name 和canal server的instance 对应
+    groups:
+    - groupId: g1
+      outerAdapters:
+      - name: logger
+      - name: rdb
+        key: mysql1
+        properties:
+          jdbc.driverClassName: com.mysql.jdbc.Driver
+          jdbc.url: jdbc:mysql://172.16.22.41:3306/user_db?useUnicode=true
+          jdbc.username: canal
+          jdbc.password: canal
+      - name: es
+        hosts: 172.16.22.41:9200 # 127.0.0.1:9200 for rest mode
+        properties:
+          mode: rest # transport or rest
+          # security.auth: test:123456 #  only used for rest mode
+          cluster.name: elasticsearch
+
+
+
